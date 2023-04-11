@@ -1,6 +1,6 @@
 
 import { useEffect, useState } from "react";
-import "./app.css";
+import "./App.css";
 import Quiz from "./components/quiz";
 import Time from "./components/time";
 import Start from "./components/start";
