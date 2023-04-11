@@ -17,330 +17,330 @@ function App() {
   const quizData = [
     {
       id: 1,
-      question: "Rolex is a company that specializes in what type of product?",
+      question: "日本人の主食と言えばなんでしょうか?",
       answers: [
         {
-          text: "Phone",
+          text: "豆",
           correct: false,
         },
         {
-          text: "Watches",
+          text: "米",
           correct: true,
         },
         {
-          text: "Food",
+          text: "パン",
           correct: false,
         },
         {
-          text: "Cosmetic",
+          text: "魚",
           correct: false,
         },
       ],
     },
     {
       id: 2,
-      question: "When did the website `Facebook` launch?",
+      question: "日本の国花はどれでしょう?",
       answers: [
         {
-          text: "2004",
+          text: "桜",
           correct: true,
         },
         {
-          text: "2005",
+          text: "たんぽぽ",
           correct: false,
         },
         {
-          text: "2006",
+          text: "菫",
           correct: false,
         },
         {
-          text: "2007",
+          text: "梅",
           correct: false,
         },
       ],
     },
     {
       id: 3,
-      question: "Who played the character of harry potter in movie?",
+      question: "日本一高い山の名前はなんでしょうか?",
       answers: [
         {
-          text: "Johnny Deep",
+          text: "御嶽山",
           correct: false,
         },
         {
-          text: "Leonardo Di Caprio",
+          text: "エベレスト山",
           correct: false,
         },
         {
-          text: "Denzel Washington",
+          text: "鷲羽岳",
           correct: false,
         },
         {
-          text: "Daniel Red Cliff",
+          text: "富士山",
           correct: true,
         },
       ],
     },
     {
       id: 4,
-      question: "Who played the character of harry potter in movie?",
+      question: "生の魚を食べる料理をなんというでしょう?",
       answers: [
         {
-          text: "Johnny Deep",
-          correct: false,
-        },
-        {
-          text: "Leonardo Di Caprio",
-          correct: false,
-        },
-        {
-          text: "Denzel Washington",
-          correct: false,
-        },
-        {
-          text: "Daniel Red Cliff",
+          text: "さしみ",
           correct: true,
+        },
+        {
+          text: "そば",
+          correct: false,
+        },
+        {
+          text: " 天ぷら",
+          correct: false,
+        },
+        {
+          text: "おにぎり",
+          correct: false,
         },
       ],
     },
     {
       id: 5,
-      question: "Who played the character of harry potter in movie?",
+      question: "ひな人形はいつ飾るでしょうか?",
       answers: [
         {
-          text: "Johnny Deep",
+          text: "端午の節句",
           correct: false,
         },
         {
-          text: "Leonardo Di Caprio",
-          correct: false,
-        },
-        {
-          text: "Denzel Washington",
-          correct: false,
-        },
-        {
-          text: "Daniel Red Cliff",
+          text: "桃の節句",
           correct: true,
+        },
+        {
+          text: "七夕",
+          correct: false,
+        },
+        {
+          text: "お正月",
+          correct: false,
         },
       ],
     },
     {
       id: 6,
-      question: "Who played the character of harry potter in movie?",
+      question: "英語の「nice to meet you」は日本語に訳すと、なんでしょうか",
       answers: [
         {
-          text: "Johnny Deep",
-          correct: false,
-        },
-        {
-          text: "Leonardo Di Caprio",
-          correct: false,
-        },
-        {
-          text: "Denzel Washington",
-          correct: false,
-        },
-        {
-          text: "Daniel Red Cliff",
+          text: "はじめまして",
           correct: true,
+        },
+        {
+          text: "おはようございます",
+          correct: false,
+        },
+        {
+          text: "おやすみなさい",
+          correct: false,
+        },
+        {
+          text: "すみません",
+          correct: false,
         },
       ],
     },
     {
       id: 7,
-      question: "Who played the character of harry potter in movie?",
+      question: "1月1日から3日の間に食べる日本の料理の事をなんという?",
       answers: [
         {
-          text: "Johnny Deep",
+          text: "お雑煮",
           correct: false,
         },
         {
-          text: "Leonardo Di Caprio",
-          correct: false,
-        },
-        {
-          text: "Denzel Washington",
-          correct: false,
-        },
-        {
-          text: "Daniel Red Cliff",
+          text: "おせち料理",
           correct: true,
+        },
+        {
+          text: "精進料理",
+          correct: false,
+        },
+        {
+          text: "お弁当",
+          correct: false,
         },
       ],
     },
     {
       id: 8,
-      question: "Who played the character of harry potter in movie?",
+      question: "節分で食べる有名な食べ物はどれでしょう?",
       answers: [
         {
-          text: "Johnny Deep",
+          text: "お寿司",
           correct: false,
         },
         {
-          text: "Leonardo Di Caprio",
-          correct: false,
-        },
-        {
-          text: "Denzel Washington",
-          correct: false,
-        },
-        {
-          text: "Daniel Red Cliff",
+          text: "恵方巻",
           correct: true,
+        },
+        {
+          text: "うどん",
+          correct: false,
+        },
+        {
+          text: "ラーメン",
+          correct: false,
         },
       ],
     },
     {
       id: 9,
-      question: "Who played the character of harry potter in movie?",
+      question: "白と黒の石を使ったゲームはなんでしょうか?",
       answers: [
         {
-          text: "Johnny Deep",
+          text: "将棋",
           correct: false,
         },
         {
-          text: "Leonardo Di Caprio",
+          text: "けん玉",
           correct: false,
         },
         {
-          text: "Denzel Washington",
+          text: "花札",
           correct: false,
         },
         {
-          text: "Daniel Red Cliff",
+          text: "囲碁",
           correct: true,
         },
       ],
     },
     {
       id: 10,
-      question: "Who played the character of harry potter in movie?",
+      question: "日本の国鳥はなんでしょうか?",
       answers: [
         {
-          text: "Johnny Deep",
+          text: "タカ",
           correct: false,
         },
         {
-          text: "Leonardo Di Caprio",
+          text: "ニワトリ",
           correct: false,
         },
         {
-          text: "Denzel Washington",
-          correct: false,
-        },
-        {
-          text: "Daniel Red Cliff",
+          text: "キジ",
           correct: true,
+        },
+        {
+          text: "オウム",
+          correct: false,
         },
       ],
     },
     {
       id: 11,
-      question: "Who played the character of harry potter in movie?",
+      question: "成人式は何歳になったことを祝うものでしょうか?",
       answers: [
         {
-          text: "Johnny Deep",
+          text: "15歳",
           correct: false,
         },
         {
-          text: "Leonardo Di Caprio",
-          correct: false,
-        },
-        {
-          text: "Denzel Washington",
-          correct: false,
-        },
-        {
-          text: "Daniel Red Cliff",
+          text: "20歳",
           correct: true,
+        },
+        {
+          text: "18歳",
+          correct: false,
+        },
+        {
+          text: "65歳",
+          correct: false,
         },
       ],
     },
     {
       id: 12,
-      question: "Who played the character of harry potter in movie?",
+      question: "日本の入学式はいつ行われるでしょうか?",
       answers: [
         {
-          text: "Johnny Deep",
+          text: "1月",
           correct: false,
         },
         {
-          text: "Leonardo Di Caprio",
+          text: "3月",
           correct: false,
         },
         {
-          text: "Denzel Washington",
-          correct: false,
-        },
-        {
-          text: "Daniel Red Cliff",
+          text: "4月",
           correct: true,
+        },
+        {
+          text: "9月",
+          correct: false,
         },
       ],
     },
     {
       id: 13,
-      question: "Who played the character of harry potter in movie?",
+      question: "東京から大阪へ新幹線で移動するとき、窓の外に見えるのは何?",
       answers: [
         {
-          text: "Johnny Deep",
+          text: "浅草の雷門",
           correct: false,
         },
         {
-          text: "Leonardo Di Caprio",
+          text: "厳島神社の海中鳥居",
           correct: false,
         },
         {
-          text: "Denzel Washington",
+          text: "姫路城",
           correct: false,
         },
         {
-          text: "Daniel Red Cliff",
+          text: "富士山",
           correct: true,
         },
       ],
     },
     {
       id: 14,
-      question: "Who played the character of harry potter in movie?",
+      question: "日本一多い苗字はどれでしょうか?",
       answers: [
         {
-          text: "Johnny Deep",
+          text: "鈴木",
           correct: false,
         },
         {
-          text: "Leonardo Di Caprio",
-          correct: false,
-        },
-        {
-          text: "Denzel Washington",
-          correct: false,
-        },
-        {
-          text: "Daniel Red Cliff",
+          text: "佐藤",
           correct: true,
+        },
+        {
+          text: "高橋",
+          correct: false,
+        },
+        {
+          text: "田中",
+          correct: false,
         },
       ],
     },
     {
       id: 15,
-      question: "Who played the character of harry potter in movie?",
+      question: "日本一高いジェットコースターがある遊園地はどこでしょうか?",
       answers: [
         {
-          text: "Johnny Deep",
+          text: "ディズニーランド",
           correct: false,
         },
         {
-          text: "Leonardo Di Caprio",
+          text: "東京ジョイポリス",
           correct: false,
         },
         {
-          text: "Denzel Washington",
+          text: "富士急ハイランド",
           correct: false,
         },
         {
-          text: "Daniel Red Cliff",
+          text: "ナガシマスパーランド",
           correct: true,
         },
       ],
