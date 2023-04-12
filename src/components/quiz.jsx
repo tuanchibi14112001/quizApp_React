@@ -11,6 +11,7 @@ export default function Quiz({ quizData, setStop, questionNum, setQuestionNum })
 
     const [question, setQuestion] = useState(null);
     const [selected, setSelected] = useState(null);
+    const [count, setCount] = useState(0);
     const [className, setClassName] = useState("answer");
     const [letsPlay] = useSound(play);
     const [correctAws] = useSound(correct);
@@ -36,6 +37,7 @@ export default function Quiz({ quizData, setStop, questionNum, setQuestionNum })
 
 
     const handelClick = (aws, question) => {
+        setCount(1);
         setSelected(aws);
         setClassName("answer active");
         delay(2000, ()=> {
@@ -65,7 +67,9 @@ export default function Quiz({ quizData, setStop, questionNum, setQuestionNum })
                     setStop(true);
                 });
             }
+            setCount(0);
         });
+        
     }
 
 
@@ -75,7 +79,7 @@ export default function Quiz({ quizData, setStop, questionNum, setQuestionNum })
             <div className="question">{question?.question}</div>
             <div className="answers">
                 {question?.answers.map((answer) => (
-                    <div className={selected === answer ? className : "answer"} onClick={() => handelClick(answer, question)} >{answer.text}</div>
+                    <div className={selected === answer ? className : "answer"} onClick={count? null: ()=>handelClick(answer, question)} >{answer.text}</div>
                 ))
                 }
             </div>
